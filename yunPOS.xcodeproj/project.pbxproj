@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		2FF1FCBF1FEAA48900B8A0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1FCBE1FEAA48900B8A0E8 /* AppDelegate.swift */; };
-		2FF1FCC11FEAA48900B8A0E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1FCC01FEAA48900B8A0E8 /* ViewController.swift */; };
 		2FF1FCC41FEAA48900B8A0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF1FCC21FEAA48900B8A0E8 /* Main.storyboard */; };
 		2FF1FCC71FEAA48900B8A0E8 /* yunPOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1FCC51FEAA48900B8A0E8 /* yunPOS.xcdatamodeld */; };
 		2FF1FCC91FEAA48900B8A0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF1FCC81FEAA48900B8A0E8 /* Assets.xcassets */; };
 		2FF1FCCC1FEAA48900B8A0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF1FCCA1FEAA48900B8A0E8 /* LaunchScreen.storyboard */; };
+		2FF1FCF51FEADBAD00B8A0E8 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1FCF41FEADBAD00B8A0E8 /* MasterTableViewController.swift */; };
+		2FF1FCF71FEAE41300B8A0E8 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1FCF61FEAE41300B8A0E8 /* AddItemViewController.swift */; };
+		2FF1FCF91FEAE44300B8A0E8 /* MyCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1FCF81FEAE44300B8A0E8 /* MyCartTableViewController.swift */; };
+		2FF1FCFB1FEAE46500B8A0E8 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1FCFA1FEAE46500B8A0E8 /* CheckoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FF1FCBB1FEAA48900B8A0E8 /* yunPOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yunPOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF1FCBE1FEAA48900B8A0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FF1FCC01FEAA48900B8A0E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FF1FCC31FEAA48900B8A0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FF1FCC61FEAA48900B8A0E8 /* yunPOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = yunPOS.xcdatamodel; sourceTree = "<group>"; };
 		2FF1FCC81FEAA48900B8A0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FF1FCCB1FEAA48900B8A0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FF1FCCD1FEAA48900B8A0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF1FCF41FEADBAD00B8A0E8 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		2FF1FCF61FEAE41300B8A0E8 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		2FF1FCF81FEAE44300B8A0E8 /* MyCartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartTableViewController.swift; sourceTree = "<group>"; };
+		2FF1FCFA1FEAE46500B8A0E8 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				2FF1FCBE1FEAA48900B8A0E8 /* AppDelegate.swift */,
-				2FF1FCC01FEAA48900B8A0E8 /* ViewController.swift */,
+				2FF1FCF41FEADBAD00B8A0E8 /* MasterTableViewController.swift */,
+				2FF1FCF61FEAE41300B8A0E8 /* AddItemViewController.swift */,
+				2FF1FCF81FEAE44300B8A0E8 /* MyCartTableViewController.swift */,
+				2FF1FCFA1FEAE46500B8A0E8 /* CheckoutViewController.swift */,
 				2FF1FCC21FEAA48900B8A0E8 /* Main.storyboard */,
 				2FF1FCC81FEAA48900B8A0E8 /* Assets.xcassets */,
 				2FF1FCCA1FEAA48900B8A0E8 /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FF1FCC11FEAA48900B8A0E8 /* ViewController.swift in Sources */,
+				2FF1FCF91FEAE44300B8A0E8 /* MyCartTableViewController.swift in Sources */,
 				2FF1FCBF1FEAA48900B8A0E8 /* AppDelegate.swift in Sources */,
+				2FF1FCF71FEAE41300B8A0E8 /* AddItemViewController.swift in Sources */,
+				2FF1FCF51FEADBAD00B8A0E8 /* MasterTableViewController.swift in Sources */,
+				2FF1FCFB1FEAE46500B8A0E8 /* CheckoutViewController.swift in Sources */,
 				2FF1FCC71FEAA48900B8A0E8 /* yunPOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
